@@ -18,7 +18,6 @@
 				The images within these pages may not be reproduced or linked to in any form without permission.<br /><br />
 				<a href="http://www.dragonfood.net/home.html">www.dragonfood.net</a> | Feed Your Imagination! 
 		</div>
-	</div>	
-	<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script><script src="http://twitter.com/statuses/user_timeline/eatthebirdie.json?callback=twitterCallback2&count=1" type="text/javascript"></script></span>
+	</div>
 </body>
 </html>

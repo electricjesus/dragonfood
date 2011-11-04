@@ -5,7 +5,7 @@ window.onerror=function(desc,page,line,chr){
   +'\nLine number:       \t'+line
  );
 }
-$(document).ready(function(){	
+jQuery(document).ready(function($){	
 	$('a').focus(function(){this.blur();});
 	SI.Files.stylizeAll(); 
 	$('input.text-default').each(function(){  $(this).attr('default',$(this).val()); }).focus(function(){

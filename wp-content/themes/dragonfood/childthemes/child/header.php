@@ -7,8 +7,16 @@
 	<link href="<?php bloginfo('template_directory'); ?>/css/home.css" rel="stylesheet" type="text/css" />
 	<link href="<?php bloginfo('template_directory'); ?>/css/slider.css" rel="stylesheet" type="text/css" />
     <link href="<?php bloginfo('template_directory'); ?>/css/arts.css" rel="stylesheet" type="text/css" />
+    
+    <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/prototype.js"></script>
+    <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scriptaculous.js"></script>
+	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/lightbox.js"></script>
+	
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery-1.6.4.min.js"></script>
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery.tinycarousel.min.js"></script>
+	
+	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery.noconflict.js"></script>
+	
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>
 	<title>Dragonfood - feed your imagination</title>
 	<style type="text/css">
@@ -33,11 +41,11 @@
 		<div id="navbar" class="border10-top" align="center" >
 			<span class="inbar">
 				<ul>
-					<li><a href="blog.html"><span>BLOG</span></a></li>
-					<li><a href="about.html"><span>ABOUT</span></a></li>
-					<li><a href="arts.html"><span>PANTRY</span></a></li>
-					<li><a href="shop.html"><span>MARKET</span></a></li>
-					<li><a href="contact.html"><span>CONTACT</span></a></li>
+					<li><a href="?blog"><span>BLOG</span></a></li>
+					<li><a href="?about"><span>ABOUT</span></a></li>
+					<li><a href="?arts"><span>PANTRY</span></a></li>
+					<li><a href="?shop"><span>MARKET</span></a></li>
+					<li><a href="?contact"><span>CONTACT</span></a></li>
 				</ul>
 			</span>
 		</div>
