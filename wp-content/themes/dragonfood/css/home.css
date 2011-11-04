@@ -1,0 +1,85 @@
+div.homegroup {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	height: auto;
+	top:0;
+}
+div.homegroup.group0 {
+	width:912px;
+	height:454px;
+	margin-left:0px;
+}
+div.homegroup.group1 {
+	width:572px;
+}
+div.homegroup.group2 {
+	width:230px;
+	right: 8px;
+}
+div.homegroup div{
+	position:relative;
+	display:inline-block;	
+	vertical-align:top;	
+	margin:0px 0;
+}
+div.homegroup.group1 div {
+	margin-left:0px;	
+}
+div.homegroup.group2 div {
+	margin-right:5px;
+}
+div.homeicon01 {
+	width:275px;
+	height:275px;
+}
+
+div.homeicon02 {
+	width:275px;
+	height:275px;
+	left: 5px;
+}
+
+div.homeicon04-container {
+	width:565px;
+	height:191px;
+}
+div.homeicon04 {
+	position:relative;
+	top: 9px;
+	padding:0;
+	margin:0 !important;
+	margin-left:0 !important;
+	vertical-align:top;
+	
+}
+img.a {
+	border: 2px solid #c9c9c9;		
+	position: absolute;
+	left: 0; top: 0;
+	z-index: 10;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+ 
+img.b {
+	border: 2px solid #c9c9c9;	
+	position: absolute;
+	left: 0; top: 0;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	}
+
+img.box {
+	border: 2px solid #c9c9c9;
+	-moz-border-radius:6px;	
+	border-radius:6px;
+}
+
+.bordered-container {
+	border: 3px solid #a5a5a5;
+	-moz-border-radius:6px;	
+	border-radius:6px;
+}
+
+a {text-decoration: none; }

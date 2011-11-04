@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #353535;
+}
+img.icon {
+	border: 2px solid #999;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+}
+
+.header1 {
+	font-family: FuturaHvBTHeavy;
+	font-size: large;
+	text-transform: uppercase;
+	color:#666666;
+	line-height: 250%;
+}
+
+img.mainheader {
+	position: absolute !important;
+	top: 13px;
+	z-index: 5;
+}
+
+.header1 a:link {
+	color: #b64547;
+	text-decoration: none;
+}
+.header1 a:visited {
+	color: #b64547;
+	text-decoration: none;
+}
+
+.header1 a:hover {
+	color: #b64547;
+	text-decoration: underline;
+}
+
+div#header {
+	margin-left:auto;
+	margin-right:auto;
+	width: 930px;
+	height: 380px ;
+	overflow: hidden;
+}
+
+div#headerimage {
+	margin-left:auto;
+	margin-right:auto;
+	width: 930px;
+	height: 380px ;
+	overflow: hidden;
+}
+
+div#container {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 930px;
+	height:auto;
+	overflow: hidden;
+	background-image: url(../images/header-bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+
+div#container-body {
+	margin-left:auto;
+	margin-right:auto;
+	padding: 8px;
+	width: 910px;
+	min-height: 150px;
+	height:auto;
+	overflow: hidden;
+	background-color: #222;
+	border-left: 2px solid #666;
+	border-right: 2px solid #666;
+}
+
+div#wrapper {
+	margin:8px auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #666;	
+	padding:0;
+	width: 912px;
+	min-height: 150px;
+	height:auto;
+	overflow: hidden;
+	background-color: #fff;
+	border: 2px solid #999;	
+}
+
+.border10-all {
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+}
+
+.border10-bot {
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+}
+
+.border10-top {
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+}
+
+.black-bg {
+	background-color:#000 !important;
+}
+
+div#wrapper a:visited {
+	color: #b64547;
+	text-decoration: none;
+}
+
+
+
+div#wrapper a:hover {
+	color: #b64547;
+	text-decoration: underline;
+}
+
+div#wrapper a:link {
+	color: #b64547;
+	text-decoration: none;
+}
+
+.legal {
+	font-size: 10px;
+	color: #999;	
+}
+
+div#footer {
+	margin:auto;
+	padding:30px 0;
+	width: 926px;
+	height: auto;
+	overflow: hidden;
+	background-color: #333;
+	background-image: url(../images/footer/bg-footer.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 2px solid #666;
+}
+
+.f-header {
+	padding-left: 30px;
+	font-family: FuturaHvBTHeavy;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#fff;
+	line-height: 200%;
+}
+
+.f-header-sub {
+	font-family: FuturaHvBTHeavy;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #CCC;
+	line-height: 50%;
+}
+
+.f-text {
+	padding-left: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #CCC;
+	line-height: 130%;
+}
+
+.f-text a:link {
+	color: #CCC;
+	text-decoration:underline;
+}
+
+.f-text a:hover {
+	color: #b64547;
+	text-decoration:underline;
+}
+
+.f-text a:visited {
+	color: #ccc;
+	text-decoration:underline;
+}
+
+img.footer-link {
+	padding-left: 23px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	opacity:0.5;
+}
+
+img.footer-link:hover {
+	opacity:1;
+}
+
+/* Navigation Bar */
+#navbar{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height:78px;
+	width: 926px;
+	background: #333;
+	border: 2px solid #666;
+	font-size: 12px;
+	}
+
+#navbar .inbar{
+	display:block;
+	height:78px;
+	}
+	
+#navbar ul, #navbar ul li{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:78px;	
+	line-height:44px; 
+	} 
+	
+#navbar ul li{
+	font-family: "FuturaHvBTHeavy";
+	font-size:15px;
+	text-transform:uppercase;
+	color: #fff;
+	float:left;
+	display:block;
+	line-height: 78px; 
+	}
+	
+#navbar ul li a{
+	font-family: "FuturaHvBTHeavy";
+	font-size:25px;
+	color: #FFF;
+	text-decoration:none;
+	display:block; 
+	}
+	
+#navbar ul li a span{
+	padding:0px 40px 0 48px;
+	height:78px;
+	line-height:78px;
+	display:block;
+ }
+ 
+#navbar ul li a:hover{
+	color: #999;
+}
+
+/* Social Networks */
+
+.fb-like {
+	position:absolute;
+	top:160px;
+	left:564px;
+	z-index: 50;
+}
+
+
+#twitter_t {
+	font-family: FuturaHvBTHeavy;
+    font-stretch:extra-condensed;
+    font-weight:bold;
+	font-size: 22px;
+	width: 160px;
+	height: 34px;
+	position: relative;
+	bottom: 373px;
+	left: 24px;
+	top:-160px;
+	text-align: left;
+	color: #45587c;
+}
+
+#twitter_t a:link { color: #45587c; }
+#twitter_t a:visited { color: #45587c; }
+#twitter_t a:hover { color: #45587c; text-decoration:underline }
+#twitter_t a:active { color: #45587c; }
+
+#twitter_m {
+   width: 350px;
+   top:-165px;
+   padding: 0 24px;
+   position: relative;
+   bottom: 405px;
+}
+
+   #twitter_container {
+       min-height:45px;
+       height:auto !important;
+       height:40px;
+       padding-bottom:10px;
+	   bottom: 410px;
+	   left:-180px;
+	   top:5px;
+   }
+
+       #twitter_update_list {
+           width: 250px;
+           padding: 15px;
+           overflow: hidden;
+           font-family: Georgia;
+		   text-align: left;
+           font-size: 12px;
+           font-style: italic;
+           color: #31353d;
+           line-height: 16px;
+           font-weight:bold;
+		    bottom: 410px;
+       }
+
+       #twitter_update_list li {
+           width: 250px;
+           list-style: none;
+       }
+
+       #twitter_update_list li a {
+           color: #5f6d76;
+           border-bottom: dotted 1px;
+           text-decoration: none;
+       }
+
+       #twitter_update_list li a:hover {
+           color: #31353d;
+           background: #d3f1f9;
+       }
+
+/* LightBox */
+
+#lightbox{	
+	position: absolute;
+	left: 0; 
+	width: 100%; 
+	z-index: 100; 
+	text-align: center;	 
+	line-height: 0;}
+	
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ 
+	position: relative; 
+	background-color: #fff; 
+	width: 250px; height: 250px;
+	margin: 0 auto;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px; }
+	
+#imageContainer{ padding: 10px;}
+
+#loading{
+	position: absolute;
+	top: 40%; left: 0%; height: 25%; width: 100%; 
+	text-align: center; line-height: 0; }
+	
+#hoverNav{ 
+	position: absolute; top: 0; left: 0; 
+	height: 100%; width: 100%; z-index: 10; }
+	
+#imageContainer>#hoverNav{ left: 0;}
+
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ 
+width: 49%; height: 100%; 
+background-image: 
+url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+
+#prevLink:hover, #prevLink:visited:hover 
+{ background: url(images/images/prevlabel.gif) left 15% no-repeat; }
+
+#nextLink:hover, #nextLink:visited:hover 
+{ background: url(images/images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ 
+font: 10px Futura;
+text-transform:uppercase;
+background-color: #fff; margin: 0 auto; 
+line-height: 2.3em; 
+overflow: auto; width: 100%	;
+-moz-border-radius-bottomleft:6px;
+border-bottom-left-radius:6px;
+-moz-border-radius-bottomright:6px;
+border-bottom-right-radius:6px; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+
+#imageData #numberDisplay{ 
+display: block; clear: left; padding-bottom: 1.0em;	}	
+		
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{
+	 position: absolute; top: 0; left: 0;
+	 z-index: 90; width: 100%; height: 500px; 
+	 background-color: #000; }

@@ -1,0 +1,219 @@
+/* The Pantry */
+
+div.artgroup {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	height: 848px;
+	top:0;
+}
+div.artgroup.group0 {
+	width:912px;
+	height:454px;
+	margin-left:0px;
+}
+div.artgroup.group1 {
+	width:572px;
+}
+div.artgroup.group2 {
+	width:230px;
+	right: 8px;
+}
+div.artgroup div{
+	position:relative;
+	display:inline-block;	
+	vertical-align:top;	
+	margin:0px 0;
+}
+
+div.artsmain { /* Main Gallery */
+	position: relative;
+	}
+div.artslb{ /* Look Book */
+	position: relative;
+	top: 0px;
+	left: 383px;
+	}
+div.artsstc { /* Supper Time Comics */
+	position: relative;
+	top: 283px;
+	left: 545px;
+	}
+div.artsdftv { /* DF Television */
+	position: relative;
+	top: 518px;
+	left: 541px;
+	}
+div.artsotm { /* Off The Menu */
+	position: relative;
+	top: 636px;
+	left: 371px;
+	}
+div.artslchbrk { /* Off The Menu */
+	position: relative;
+	top: 283px;
+	left: 367px;
+}
+
+/* Arts Series Pages */
+
+div.seriesgroup {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	height: 1209px;
+	top:0;
+}
+
+div.srsheader { /* Main Header of the Series */
+	position: relative;
+	}
+div.srsfp01 { /* Featured Product 01 */
+	position: relative;
+	left: 533px;
+	}
+div.srsfp02 { /* Featured Product 02 */
+	position: relative;
+	top: 149px;
+	left: 533px;
+	}
+	
+/* Icons */
+
+div.icon01 { /* Icon01 */
+	position: relative;
+	top: 298px;
+	}
+
+div.icon02 { /* Icon02 */
+	position: relative;
+	top: 298px;
+	left: 229px;
+	}
+	
+div.icon03 { /* Icon03 */
+	position: relative;
+	top: 298px;
+	left: 457px;
+	}
+
+div.icon04 { /* Icon04 */
+	position: relative;
+	top: 298px;
+	left: 686px;
+	}
+
+div.icon05 { /* Icon05 */
+	position: relative;
+	top: 527px;
+	}
+
+div.icon06 { /* Icon06 */
+	position: relative;
+	top: 527px;
+	left: 229px;
+	}
+	
+div.icon07 { /* Icon07 */
+	position: relative;
+	top: 527px;
+	left: 457px;
+	}
+
+div.icon08 { /* Icon08 */
+	position: relative;
+	top: 527px;
+	left: 686px;
+	}
+	
+div.icon09{ /* Icon09 */
+	position: relative;
+	top: 756px;
+	}
+
+div.icon10 { /* Icon10 */
+	position: relative;
+	top: 756px;
+	left: 229px;
+	}
+	
+div.icon11 { /* Icon11 */
+	position: relative;
+	top: 756px;
+	left: 457px;
+	}
+
+div.icon12 { /* Icon12 */
+	position: relative;
+	top: 756px;
+	left: 686px;
+	}
+
+div.icon13 { /* Icon13 */
+	position: relative;
+	top: 985px;
+	}
+
+div.icon14 { /* Icon14 */
+	position: relative;
+	top: 985px;
+	left: 229px;
+	}
+	
+div.icon15 { /* Icon15 */
+	position: relative;
+	top: 985px;
+	left: 457px;
+	}
+
+div.icon16 { /* Icon16 */
+	position: relative;
+	top: 985px;
+	left: 686px;
+	}
+	
+div.icon17 { /* Icon17 */
+	position: relative;
+	top: 1232px;
+	}
+
+div.icon18 { /* Icon18 */
+	position: relative;
+	top: 1232px;
+	left: 229px;
+	}
+	
+div.icon19 { /* Icon19 */
+	position: relative;
+	top: 1232px;
+	left: 457px;
+	}
+
+div.icon20 { /* Icon20 */
+	position: relative;
+	top: 1232px;
+	left: 686px;
+	}
+	
+div.icon21 { /* Icon21 */
+	position: relative;
+	top: 1457px;
+	}
+
+div.icon22 { /* Icon22 */
+	position: relative;
+	top: 1457px;
+	left: 229px;
+	}
+	
+div.icon23 { /* Icon23 */
+	position: relative;
+	top: 1457px;
+	left: 457px;
+	}
+
+div.icon24 { /* Icon24 */
+	position: relative;
+	top: 1457px;
+	left: 686px;
+	}
