@@ -1,5 +1,5 @@
 		</div>
-		<div id="footer" class="border10-bot">
+		<div id="footer" class="border10-bot bottom-shadow">
 			<span class="f-header">© 2011 DRAGON FOOD | </span>
 			<span class="f-header-sub">DON'T STEAL OUR STUFF. WE'LL EAT YOU</span>
 			<br />		

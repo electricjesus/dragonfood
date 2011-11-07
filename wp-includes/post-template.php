@@ -27,7 +27,10 @@ function the_ID() {
  */
 function get_the_ID() {
 	global $post;
-	return $post->ID;
+    if(isset($post))
+    	return $post->ID;
+    else
+        return 1;
 }
 
 /**

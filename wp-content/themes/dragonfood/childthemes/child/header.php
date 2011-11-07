@@ -9,7 +9,7 @@
     <link href="<?php bloginfo('template_directory'); ?>/css/arts.css" rel="stylesheet" type="text/css" />
     
     <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/prototype.js"></script>
-    <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scriptaculous.js"></script>
+    <script type='text/javascript' src="<?php bloginfo  ('template_directory'); ?>/js/scriptaculous.js"></script>
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/lightbox.js"></script>
 	
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery-1.6.4.min.js"></script>
@@ -38,16 +38,16 @@
 			<img src="<?php bloginfo('template_directory'); ?>/images/df2-header.png" class="mainheader" />
             </div>
 		</div>
-		<div id="navbar" class="border10-top" align="center" >
+		<div id="navbar" class="border10-top shadow" align="center" >
 			<span class="inbar">
 				<ul>
-					<li><a href="?blog"><span>BLOG</span></a></li>
-					<li><a href="?about"><span>ABOUT</span></a></li>
-					<li><a href="?arts"><span>PANTRY</span></a></li>
-					<li><a href="?shop"><span>MARKET</span></a></li>
-					<li><a href="?contact"><span>CONTACT</span></a></li>
+					<li><a href="/blog"><span>BLOG</span></a></li>
+					<li><a href="/about"><span>ABOUT</span></a></li>
+					<li><a href="/arts"><span>PANTRY</span></a></li>
+					<li><a href="/shop"><span>MARKET</span></a></li>
+					<li><a href="/contact"><span>CONTACT</span></a></li>
 				</ul>
 			</span>
 		</div>
-		<div id="container-body">	
+		<div id="container-body" class="bottom-shadow">	
 

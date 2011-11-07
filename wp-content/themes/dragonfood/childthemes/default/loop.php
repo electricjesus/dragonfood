@@ -1,10 +1,8 @@
-
 <h1>Blog</h1>
-
 <?php foreach ($thePosts as $thePost):?>
     <div class="post">
-        <h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-         <div><?php the_excerpt();?></div>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+         <div><?php the_content();?></div>
         <div class="info">
             <span class="date"><?php the_date();?></span> | <a class="author"><?php the_author();?></a>
             <a href="<?php the_permalink();?>" class="read-more right">Read More</a>
