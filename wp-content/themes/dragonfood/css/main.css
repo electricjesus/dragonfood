@@ -428,6 +428,7 @@ div#errorcontainer {
 	position:absolute;
 	top:160px;
 	left:564px;
+	z-index:999;
 }
 
 

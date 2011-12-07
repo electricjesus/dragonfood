@@ -1,7 +1,7 @@
 <?php foreach ($thePosts as $thePost):?>
 	<div class="blogwrapper  blog-post-1">
 		<div class="blogimage" style="overflow:hidden;">
-			<a href="<?php the_permalink(); ?>"><img src="<?php bloginfo('template_directory'); ?><?= catch_that_image(); ?>" alt="<?php the_title(); ?>" /></a>
+			<a href="<?php the_permalink(); ?>"><img src="<?= catch_that_image(); ?>" alt="<?php the_title(); ?>" /></a>
 		</div>
 		<div class="blogheader">
 			<a href="<?php the_permalink(); ?>"><div class="blogtitle"><?php the_title(); ?></div></a>
