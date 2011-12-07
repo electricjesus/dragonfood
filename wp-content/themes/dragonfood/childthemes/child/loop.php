@@ -9,7 +9,7 @@
 		</div>
 		<div class="blogbody">
 			<?php global $more; $more = 0; ?>
-			<?php get_the_content();?>
+			<?=	 get_the_content();?>
 			<img src="/wp-content/themes/dragonfood/images/divider.png" class="divider" height="1" width="550"/>
 			<div class="seemore">
 				<a href="<?php the_permalink();?>">See more...</a>
