@@ -68,9 +68,18 @@ function catch_that_image() {
   $first_img = $matches [1] [0];
 
   if(empty($first_img)){ //Defines a default image
-    $first_img = "/images/default.jpg";
+    $first_img = "/wp-content/themes/dragonfood/images/default.jpg";
   }
   return $first_img;
+}
+
+function get_featured_image() {
+	if (has_post_thumbnail( $post->ID ) ) {
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+		return $image[0];
+	} else {
+		return "/wp-content/themes/dragonfood/images/default.jpg";
+	}
 }
 
 
