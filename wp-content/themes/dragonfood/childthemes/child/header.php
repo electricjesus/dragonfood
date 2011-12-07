@@ -7,6 +7,7 @@
 	<link href="<?php bloginfo('template_directory'); ?>/css/home.css" rel="stylesheet" type="text/css" />
 	<link href="<?php bloginfo('template_directory'); ?>/css/slider.css" rel="stylesheet" type="text/css" />
     <link href="<?php bloginfo('template_directory'); ?>/css/arts.css" rel="stylesheet" type="text/css" />
+	<link href="<?php bloginfo('template_directory'); ?>/css/blog.css" rel="stylesheet" type="text/css" />
     
     <script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/prototype.js"></script>
     <script type='text/javascript' src="<?php bloginfo  ('template_directory'); ?>/js/scriptaculous.js"></script>

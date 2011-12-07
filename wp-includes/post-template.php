@@ -185,7 +185,8 @@ function get_the_content($more_link_text = null, $stripteaser = 0) {
 	global $post, $more, $page, $pages, $multipage, $preview;
 
 	if ( null === $more_link_text )
-		$more_link_text = __( '(more...)' );
+		$more_link_text = __( '...' );
+		//$more_link_text = __( '(more...)' );
 
 	$output = '';
 	$hasTeaser = false;

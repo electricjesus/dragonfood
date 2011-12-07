@@ -42,6 +42,13 @@ img.mainheader {
 	text-decoration: none;
 }
 
+.faqquestion {
+	font-weight:bold;
+	font-size: 14px;
+	color:#666666;
+	line-height: 200%;
+}
+
 .header1 a:hover {
 	color: #b64547;
 	text-decoration: underline;
@@ -56,11 +63,27 @@ div#header {
 }
 
 div#headerimage {
-	margin-left:auto;
-	margin-right:auto;
+	margin: -20px auto 0;
 	width: 930px;
 	height: 380px ;
 	overflow: hidden;
+}
+
+table {
+	border:1px solid #444;
+}
+
+th {
+	border:1px solid #444;
+	background-color:#777;
+	color: #fff;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	border:1px solid #444;
+	background-color:#fff;
 }
 
 div#container {
@@ -102,6 +125,19 @@ div#wrapper {
 	background-color: #fff;
 	border: 2px solid #999;
 	-moz-border-radius:10px;
+	border-radius:10px;		
+}
+
+div#headerwrapper {	
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	width: 906px;
+	min-height: 50px;
+	height:auto;
+	overflow: hidden;
+	background-color: #333;
+	border: 2px solid #666;
+	-moz-border-radius:10px;
 	border-radius:10px;	
 }
 
@@ -119,16 +155,39 @@ div#wrapper {
 
 #contact-desc {
 	line-height: 25px;
-	padding-top: 20px;
+	padding-top: 140px;
 	padding-right: 300px;
 	padding-left: 40px;
+	margin-bottom:-20px;
 	font-size:12px;
 	text-align:left;
 	background-image:url(../images/contact/mailman.jpg);
-	background-position: 100% -20%;
+	background-position: bottom right;
 	background-repeat:no-repeat;
 
 }
+
+#sub-desc {
+	line-height: 25px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size:12px;
+	text-align:left;
+	background-image:url(../images/sub/certifiedfresh.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+#sub-footer {
+	line-height: 25px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size:10px;
+	text-align:center;
+}
+
 .border10-all {
 	-moz-border-radius-bottomleft:10px;
 	border-bottom-left-radius:10px;
@@ -163,14 +222,27 @@ div#wrapper a:visited {
 	text-decoration: none;
 }
 
-
-
 div#wrapper a:hover {
 	color: #b64547;
 	text-decoration: underline;
 }
 
 div#wrapper a:link {
+	color: #b64547;
+	text-decoration: none;
+}
+
+div#headerwrapper a:visited {
+	color: #b64547;
+	text-decoration: none;
+}
+
+div#headerwrapper a:hover {
+	color: #b64547;
+	text-decoration: underline;
+}
+
+div#headerwrapper a:link {
 	color: #b64547;
 	text-decoration: none;
 }
@@ -311,7 +383,8 @@ img.footer-link:hover {
 	width:auto;
 }
 form#contactform input,
-form.wpcf7-form textarea{
+form.wpcf7-form input 
+{
 	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
 	border-style:solid;
 	border-width:1px;
@@ -333,6 +406,21 @@ span.wpcf7-not-valid-tip-no-ajax {
     display:block;
     color:#ff0000;
 }
+
+
+/*  404 Error - Not Found */
+
+div#errorcontainer {
+	padding-top: 40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 914px;
+	line-height: 25px;
+}
+
+
 
 /* Social Networks */
 
