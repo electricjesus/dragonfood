@@ -18,13 +18,13 @@
 </div>
  */ ?>
 <div class="blogcontainer">
-	<div class="blogwrapper  blog-post-1">
+<div class="blogwrapper  blog-post-1">
 		<div class="blogimage" style="overflow:hidden;">
-			<a href="<?php the_permalink(); ?>"><img src="<?= get_featured_image(); ?>" alt="<?php the_title(); ?>" /></a>
+			<img src="<?= get_featured_image(); ?>" alt="<?php the_title(); ?>" />
 		</div>
 		<div class="blogheader">
-			<a href="<?php the_permalink(); ?>"><div class="blogtitle"><?php the_title(); ?></div></a>
-			<div class="blogdate"><?= get_the_date() ?></span> | <a class="author"><?= get_the_author(); ?></div>
+			<div class="blogtitle">Title goes here plz<?php the_title(); ?></div>
+			<div class="blogdate">Date goes here plz<?php the_date();?></span> | <a class="author">by <?php the_author();?></div>
 		</div>
 		<div class="blogbody">
 			<?php global $more; $more = 1; ?>
@@ -32,17 +32,6 @@
 			<img src="/wp-content/themes/dragonfood/images/divider.png" class="divider" height="1" width="550"/>
 			<?php if($thePost->type==='post'):?>
 			<div class="post-meta post-tags">
-				<?php if(count($thePost->tags) > 0): ?>
-					<p>Tag: </p>
-				<?php endif; ?>
-				<p>Posted in : <?php 
-				foreach($thePost->categories as $c){
-					echo $c;
-					$cat = get_category( $c );
-					print_r($cat);
-					$cats[] = array( 'name' => $cat->name, 'slug' => $cat->slug );
-				}
-				?></p>
 			</div>
 			<?php endif; ?>
 			<div class="comments">

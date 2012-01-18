@@ -78,9 +78,23 @@ function get_featured_image() {
 		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 		return $image[0];
 	} else {
-		return "/wp-content/themes/dragonfood/images/default.jpg";
+		return "/wp-content/themes/dragonfood/images/default.png";
 	}
 }
+
+function my_search_form( $form ) {
+
+    $form = '<form class="df-searchform" role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
+    <div><label class="screen-reader-text" for="s">' . __('Search for:') . '</label>
+    <input class="searchform-input search-field text_search" type="text" value="' . get_search_query() . '" name="s" id="s" />
+    <input type="image" src="/wp-content/themes/dragonfood/images/blog/btn_search.png" style="position: absolute; padding-left: 6px;" value="Submit" alt="Submit" onclick="form.submit();">
+    </div>
+    </form>';
+
+    return $form;
+}
+
+add_filter( 'get_search_form', 'my_search_form' );
 
 
 ?>

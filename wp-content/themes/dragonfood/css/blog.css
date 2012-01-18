@@ -65,6 +65,14 @@ div.blogbody {
 	border-bottom-right-radius:10px;
 }
 
+div.blogbody a:link {
+	color: #b64547;
+}
+
+div.blogbody a:visited {
+	color: #b64547;
+}
+
 .divider {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -89,6 +97,7 @@ div#widgetwrapper {
 	color: #666;
 	padding: 15px;
 	min-height: 445px;
+	height: auto;
 	width: 258px;
 	background-color:#FFF ;
 	border: 2px solid #999;
@@ -98,12 +107,49 @@ div#widgetwrapper {
 	vertical-align:top;
 }
 
+div#widgetwrapper a:link {
+	color: #666;
+}
+
+div#widgetwrapper a:visited {
+	color: #666;
+}
+
+
+div#widgetwrapper a:hover {
+	color: #b64547;
+	text-decoration: underline;
+}
+
 
 div.widgetSearch input  {
     display:inline;
 }
 
 div.widget {
+    border-bottom: 1px solid #ccc;
     margin:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+#searchform {
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+
+#searchform input#s {
+	padding-left: 5px;
+	height: 26px;
+	width: 213px;
+	border: 2px solid #ccc;
+	background: url('http://www.dragonfood.us/wp-content/themes/dragonfood/images/blog/search-here.png') no-repeat;
+	background-position: center left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	-moz-border-radius-bottomright:6px;
+	border-top-right-radius:6px;
+}
+
+.screen-reader-text {
+	display:none;

@@ -36,7 +36,7 @@
 			</div>
 			<div class="homegroup group2">
 				<div class="homeicon03">
-					<a href="blog.html"><img src="<?php bloginfo('template_directory'); ?>/images/home/dfn.gif" alt=""/ class="box"></a>
+					<a href="/blog"><img src="<?php bloginfo('template_directory'); ?>/images/home/dfn.gif" alt=""/ class="box"></a>
 				</div>
 			</div>
 			<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script><script src="http://twitter.com/statuses/user_timeline/eatthebirdie.json?callback=twitterCallback2&count=1" type="text/javascript"></script></span>

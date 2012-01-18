@@ -4,7 +4,7 @@ div.artgroup {
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	height: 848px;
+	height: 848px !important;
 	top:0;
 }
 div.artgroup.group0 {
@@ -61,7 +61,7 @@ div.seriesgroup {
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	height: 1209px;
+	height: 1439px;
 	top:0;
 }
 
@@ -174,24 +174,24 @@ div.icon16 { /* Icon16 */
 	
 div.icon17 { /* Icon17 */
 	position: relative;
-	top: 1232px;
+	top: 1214px;
 	}
 
 div.icon18 { /* Icon18 */
 	position: relative;
-	top: 1232px;
+	top: 1214px;
 	left: 229px;
 	}
 	
 div.icon19 { /* Icon19 */
 	position: relative;
-	top: 1232px;
+	top: 990px;
 	left: 457px;
 	}
 
 div.icon20 { /* Icon20 */
 	position: relative;
-	top: 1232px;
+	top: 766px;
 	left: 686px;
 	}
 	
@@ -217,3 +217,308 @@ div.icon24 { /* Icon24 */
 	top: 1457px;
 	left: 686px;
 	}
+
+/* Off The Menu */
+
+div.otmgroup {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	height: auto;
+	top:0;
+}
+
+div#otmheader {
+	width: 906px;
+	height: 85px;
+	overflow: hidden;
+	background-color: #333;
+	border: 2px solid #666;
+	margin-bottom: 8px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding: 0px;
+}
+
+div#otmheaderinfo {
+	padding: 0px;
+	width: 906px;
+	height: 85px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+div#otmheaderinfo ul {
+	padding: 0px !important;
+	margin-top:15px;
+}
+
+div#otmheaderinfo ul li {
+	padding: 0px !important;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div#artist-feature-info {
+	width: 590px !important;
+}
+
+.otm_artist {
+	font-family: FuturaHvBTHeavy;
+	font-size: 36px;
+	text-transform: uppercase;
+	color:#fff;
+	line-height: 35px;
+}
+
+.otm_date {
+	font-family: FuturaHvBTHeavy;
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#777;
+}
+
+img.artist-link {
+	margin-top: 3px;
+	opacity:0.1;
+	}
+	
+img.artist-link:hover {
+	opacity:0.5;
+	}
+	
+img.artist-link :link{
+	opacity:0.1;
+	}
+	
+img.artist-link :visited {
+	opacity:0.1;
+	}
+	
+	
+div#otm_desc {
+	margin: auto;
+	line-height: 30px;
+	padding: 20px;
+}
+
+img.avatar {
+	border: 2px solid #000;
+	margin: 20px;
+	height: 150px !important;
+	width: 150px !important;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#otm_top {
+	line-height: 30px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 20px;
+	font-size:12px;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#otm_descbg {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.otm_footerq {
+	font-family: FuturaHvBTHeavy;
+	font-size: medium;
+	text-transform: uppercase;
+	color:#fff;
+	line-height: 20px;
+}
+
+div#otmfooter {
+	width: 906px;
+	height: auto;
+	min-height: 20px !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	background-color: #333;
+	border: 2px solid #666;
+	-moz-border-radius:10px;
+	border-radius:10px;	
+}
+
+.otm_footerq a:link {
+	color: #b64547;
+	text-decoration: none;
+}
+.otm_footerq a:visited {
+	color: #b64547;
+	text-decoration: none;
+}
+
+.otm_footerq a:hover {
+	color: #b64547;
+	text-decoration: underline;
+}
+
+div#otmfooterinfo {
+	width: 900px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
+	vertical-align:top;
+}
+
+div#interview {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 13px;
+	padding: 20px;
+	font-size: 13px;
+	color: #666;	
+	width: 906px;
+	height:auto;
+	overflow: hidden;
+	border-top: 2px solid #999;
+	border-bottom: 2px solid #999;
+	background-color: #fff;
+}
+
+/* OFF THE MENU SLIDE SHOW */
+
+div#otm_gallery {
+	margin: auto;
+	float: right;
+	height: 584px;
+	width: 438px;
+	display:inline-block;
+	vertical-align:top;
+	overflow: hidden;
+}
+
+#slideshow {list-style:none; color:#fff}
+#slideshow span {display:none}
+#otm_wrapper {width:438px; margin:0px; display:none}
+#otm_wrapper * {margin:0; padding:0}
+#fullsize {position:relative; width:434px; height:491px; padding:2px; background:#999}
+#image {width:438px overflow:hidden;}
+#image img {position:absolute; z-index:25; width:434px; height: 491px;}
+.imgnav {position:absolute; width:25%; height:306px; cursor:pointer; z-index:150}
+#imglink {position:absolute; height:491px; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
+.linkhover {background:url(../images/arts/offthemenu/link.gif) center center no-repeat}
+#thumbnails {margin-top:8px;}
+#slideleft {float:left; width:20px; height:77px; background:url(../images/arts/offthemenu/scroll-left.gif) center center no-repeat; background-color:#fff;  border: 2px solid #999; -moz-border-radius-bottomleft:10px; border-bottom-left-radius:10px; -moz-border-radius-topleft:10px; border-top-left-radius:10px;}
+#slideleft:hover {background-color:#b64547}
+#slideright {float:right; width:20px; height:77px; background:#fff url(../images/arts/offthemenu/scroll-right.gif) center center no-repeat;  border: 2px solid #999; -moz-border-radius-bottomright:10px; border-bottom-right-radius:10px; -moz-border-radius-topright:10px; border-top-right-radius:10px;}
+#slideright:hover {background-color:#b64547}
+#slidearea {float:left; position:relative; margin-left:5px; height:81px; width:379px; overflow:hidden}
+#otm_slider {position:absolute; left:0; height:81px}
+#otm_slider img {cursor:pointer; height: 77px; width: 77px; border: 2px solid #999}
+
+/* SUPPER TIME COMICS PAGE */
+
+div#stc-header {
+	font-family: FuturaHvBTHeavy;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#fff;
+	line-height: 20px;
+	margin:0px auto;
+	width: 906px;
+	height: 350px;
+	background-image:url(/wp-content/themes/dragonfood/images/arts/stc/header.png);
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+div#stc-body {
+	margin:0px auto;
+	width: 906px;
+	min-height: 100px;
+	height: auto;
+	overflow: hidden;
+	background-color: #333;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	z-index: -10;
+}
+
+img.stc-logo {
+	position: relative;
+	left: 127px;
+	top: 160px;
+	z-index: 50;
+}
+
+.stc-date {
+	padding-top: 105px;
+	padding-right: 30px;
+	float: right;
+}
+
+.stc-issue {
+	padding-top: 105px;
+	padding-left: 140px;
+	float: left;
+}
+
+img.webcomic-body{
+	padding: 0px;
+	margin: 0px;
+	width: 906px !important;
+	height: auto;
+	overflow: hidden;
+}
+
+#stc-navbar{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height:90px;
+	width: 906px;
+	background-image: url(/wp-content/themes/dragonfood/images/arts/stc/footer.png);
+	background-position: top;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	font-size: 12px;
+	}
+
+#stc-navbar .inbar{
+	display:block;
+	height:70px;
+	}
+	
+#stc-navbar ul, #stc-navbar ul li{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	padding-left: 42px;
+	list-style:none;
+	height:78px;	
+	line-height:44px; 
+	} 
+	
+#stc-navbar ul li{
+	float:left;
+	display:block;
+	}
+	
+#stc-navbar ul li a{
+	padding-top: 30px;
+	padding-right: 30px;
+	display:block;
+	opacity: 0.2;
+	}
+	
+#stc-navbar ul li a span{
+	padding:0px 20px 0 00px;
+	height:78px;
+	display:block;
+ }
+ 
+#stc-navbar ul li a:hover{
+	opacity: 0.8;
+}

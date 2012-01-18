@@ -30,7 +30,6 @@ img.icon {
 
 img.mainheader {
 	position: absolute; !important
-	bottom: 24px;
 }
 
 .header1 a:link {
@@ -63,7 +62,8 @@ div#header {
 }
 
 div#headerimage {
-	margin: -20px auto 0;
+	position: absolute;
+	top: 10px;
 	width: 930px;
 	height: 380px ;
 	overflow: hidden;
@@ -153,17 +153,31 @@ div#headerwrapper {
 	background-repeat:no-repeat;	
 }
 
-#contact-desc {
-	line-height: 25px;
-	padding-top: 140px;
-	padding-right: 300px;
-	padding-left: 40px;
-	margin-bottom:-20px;
-	font-size:12px;
-	text-align:left;
+div#contact-wrapper {
+	margin:0px auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #666;	
+	padding-bottom: 20px;
+	width: 906px;
+	min-height: 150px;
+	height:auto;
+	overflow: hidden;
+	background-color: #fff;
+	border: 2px solid #999;
+	-moz-border-radius:10px;
+	border-radius:10px;
 	background-image:url(../images/contact/mailman.jpg);
 	background-position: bottom right;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;	
+}
+
+#contact-desc {
+	padding: 20px;
+	padding-top: 40px;
+	line-height: 25px;
+	font-size:12px;
+	text-align:left;
 
 }
 
@@ -371,6 +385,15 @@ img.footer-link:hover {
 	color: #999;
 }
 
+img.backtotop{
+	position: absolute;
+	padding-left: 670px;
+	opacity: 0.2;
+}
+
+img.backtotop:hover {
+	opacity: 1;
+}
 /* Contact Section */
 
 #contact-desc label {
@@ -420,14 +443,12 @@ div#errorcontainer {
 	line-height: 25px;
 }
 
-
-
 /* Social Networks */
 
 .fb-like {
 	position:absolute;
-	top:160px;
-	left:564px;
+	top:166px;
+	left:565px;
 	z-index:999;
 }
 

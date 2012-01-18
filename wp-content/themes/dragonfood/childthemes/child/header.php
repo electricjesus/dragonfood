@@ -18,8 +18,8 @@
 	
 	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery.noconflict.js"></script>
 	
-	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>
-	<title>Dragonfood - feed your imagination</title>
+	<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>	
+	<title>Dragon Food - Feeding your Imagination!</title>
 	<style type="text/css">
 	</style>
 </head>
@@ -36,7 +36,10 @@
 			}(document, 'script', 'facebook-jssdk'));</script>
 			<div class="fb-like" data-href="http://www.facebook.com/pages/Dragon-Food/110181845757711" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="lucida grande"></div>
             <div id="headerimage">
-			<img src="<?php bloginfo('template_directory'); ?>/images/df2-header.png" class="mainheader" />
+			<img src="<?php bloginfo('template_directory'); ?>/images/df2-header.png" class="mainheader" usemap="#Map"  />
+			            <map name="Map" id="Map">
+							<area shape="rect" coords="380,38,557,318" href="http://www.dragonfood.us" />
+						</map>
             </div>
 		</div>
 		<div id="navbar" class="border10-top shadow" align="center" >

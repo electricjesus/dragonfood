@@ -23,6 +23,13 @@ jQuery(document).ready(function($){
 	});
 	//fadeover
 	$("img.a").hover( function() { $(this).stop().animate({"opacity": "0"}, "fast");	}, function() { $(this).stop().animate({"opacity": "1"}, "slow"); }); 	
+	$('input#s.searchform-input').click(function() {
+		$('input#s.searchform-input').css('background-image', 'none');
+	});
+	$('input#s.searchform-input').blur(function() {
+		$('input#s.searchform-input').css('background-image', 'url("/wp-content/themes/dragonfood/images/blog/search-here.png")');
+	});
+
 });
 
 // STYLING FILE INPUTS 1.0 | Shaun Inman <http://www.shauninman.com/> | 2007-09-07
